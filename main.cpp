@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <iostream>
 #include <filesystem>
+
 void swap(int *a, int *b);
 
 int main() {
 
     //Variablen
     int x, y;
-    int *n_ptr;
-    x = 3;
-    y = 5;
+    printf("Bitte x und y eingeben: ");
+    scanf("%d %d", &x, &y);
+    printf("%d %d \n", x, y);
 
     swap(&x, &y);
 
